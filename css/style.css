@@ -1,0 +1,436 @@
+* {
+  margin-right:0px;
+  padding: 0;
+  }
+img {
+  max-width: 100%;
+}
+body{
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'montserrat', sans-serif;
+  margin: 0;
+}
+.top-50 {
+	margin-top: 55px;
+}
+/*header-section*/
+.header-wrapper {
+  background: rgba(0,0,0,0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.header-wrapper ul li a {
+	color: #fff;
+}
+.navbar-toggler {
+	color: #fff;
+} 
+/* .covid-section */
+.covid-section{
+  background-color: #0071E3;
+  font-size: 14px;
+  text-align: center;
+}
+.covid a {
+  color: #fff;
+}
+.covid a:hover{
+  text-decoration: underline;
+}
+.covid a:after{
+  position: relative;
+  padding-left: 5px;
+  font-family: 'FontAwesome';
+  content:"\f105";
+  text-decoration: none;
+  display: inline-block;
+}
+.covid {
+  padding: 10px 83px;
+  text-align: center;
+  }
+/* online-sale-section */
+.shop-online-wrapper p{
+  padding: 11px 50px;
+  background-color: aliceblue;
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+} 
+/*first-section  */
+.main-highlight-wrapper {
+  background-image: url("../images/home/apple-iphone11-image.jpg");
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  text-align: center;
+  margin: 0;
+}
+.top-body{
+  padding-top: 30px;
+}
+top-body-2{
+  padding-top: 20px;
+}
+.title-wrapper{
+  font-weight: 600;
+  font-size: 28px;
+}
+.description-wrapper {
+  padding: 8px 13px 10px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+.price-wrapper{
+  color:#86868b;
+  font-size:0.85em;
+  padding: 0px 76px;
+}
+.links-wrapper{
+  padding: 5px 0;
+}
+.links-wrapper ul{
+  list-style: none;
+}
+.links-wrapper ul li{
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  color: #0071E3;
+  font-weight: 600;
+  text-decoration: none;
+  }
+.links-wrapper ul li a:hover {
+  color:#000;
+  text-decoration: none;
+  }
+.links-wrapper ul li a:after {
+  padding-left:10px ;
+  font-family: "FontAwesome";
+  content:"\f105";
+}
+.fifth-highlight-wrapper .right-side-wrapper .links-wrapper ul li p a:after{
+  padding-left: 5px;
+  font-family: "FontAwesome";
+  content:"\1F865";
+}
+.sixth-highlight-wrapper .left-side-wrapper .links-wrapper ul li p a:after{
+  padding-left: 5px;
+  font-family: "FontAwesome";
+  content:"\1F865";
+}
+/* section two*/ 
+.second-highlight-wrapper {
+  background-image: url("../images/home/iphone12.jpg");
+  height: 588px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #fff;
+  }
+/* third-section */
+.third-highlight-wrapper{
+  background-image: url("../images/home/keyboard/key-small.jpg");
+  height: 588px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 20px;
+	}
+.card-img{
+  padding: 20px 0 5px;
+}
+.price-wrapper-card{
+  font-size:17px;
+  padding: 10px 0;
+}
+.bottom-remark{
+  font-size: 12px;
+  padding: 0; 
+}
+/* fourth-section */
+.fourth-highlight-wrapper .left-side-wrapper{
+  background-image: url("../images/home/air-pad1/air-pad-small.jpg");
+  height: 545px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 1% 0.5% 0% 1%;
+  width: 500px;
+  padding-top: 10px;
+  margin: 0;
+}
+.fourth-highlight-wrapper{
+  margin: 0 auto;
+}
+.bottom-apple{
+  padding-top: 430px;
+  font-weight: 600; 
+}
+.fourth-highlight-wrapper .right-side-wrapper{
+background-image: url("../images/home/watch/watch-small-2x\ .jpg");
+  height: 588px;
+  background-position:bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  width:500px;
+  background-color: black;
+  color: #fff;
+  margin: 0 auto;
+  background-size: 207px 333px; 
+}
+.top-body-4-right{
+padding-top: 25px;
+}
+left-side-wrapper {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+/* fifth-section */
+.fifth-highlight-wrapper .left-side-wrapper{
+background-image: url("../images/home/macbook/macbook-small.jpg");
+  background-color: #000;
+	padding-top: 10px;
+	background-size: cover;
+  background-repeat: no-repeat;
+  height: 588px;
+  width: 500px;
+  background-position: bottom;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;	
+  margin-top: 10px;
+}
+.top-body-5-left{
+  padding-top: 25px;
+}
+
+.fifth-highlight-wrapper .right-side-wrapper{
+  background-image: url("../images/home/handwatch1/handwatch-small-1.jpg");
+  height: 588px;
+  background-position: bottom;
+  text-align: center;	
+  width: 350px;
+  background-repeat: no-repeat;
+  background-color: white;
+  margin: 0 auto;
+}
+/* sixth section */
+.sixth-highlight-wrapper .left-side-wrapper{
+  background-image: url("../images/home/six-apple-logo/six-small.jpg");
+  height: 530px;
+  width: 394px;
+  background-position: bottom; 
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+  }
+.top-body-6-left{
+  padding-top:30px; 
+} 
+.sixth-highlight-wrapper .right-side-wrapper{
+  background-image: url("../images/home/black-girlee/black-girle-small.jpg");
+  height: 540px; 
+  text-align: center;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-position:center;
+} 
+.top-body-6-right{
+  padding-top: 45px;
+}
+.bottom-body-6-right{
+  padding-top: 330px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+.bottom-body-6-right a {
+  color: white;
+}
+.bottom-body-6-right a:hover {
+  text-decoration: underline;
+}
+.bottom-body-6-right a:after {
+  padding-left:10px ;
+  font-family: "FontAwesome";
+  content:"\f144";
+}
+/*footer section*/
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: .7em;
+}
+.footer-wrapper ul {
+	list-style: none;
+	padding-bottom: 10px;
+	padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+	color: #515154;
+}
+.my-apple-wrapper {
+	padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+	margin-top: 15px;
+}
+.footer-country {
+	margin-top: 8px;
+}
+.flag-wrapper{
+  display: none;
+}
+.footer-country-name{
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-links-terms ul {
+	display: flex;
+}
+.footer-links-terms ul li {
+	margin: 0 10px;
+	border-right: 1px solid #d2d2d7;
+  padding-left:10px;
+}
+.footer-links-terms ul li:first-child {
+	padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+	border-right: 0;
+}
+.footer-links-wrapper h3 {
+	font-size: 12px;
+	font-weight: 500;
+	color: #1d1d1f;
+  margin-top: -9px;
+}
+.footer-wrapper ul li{
+	padding: 4px 0;
+}
+.upper-text-container {
+	border-bottom: 1px solid #d2d2d7;
+	padding: 17px 0 10px;
+	margin-bottom: 21px;
+}
+.upper-text-container a {
+	color: #515154;
+}  
+/* midia for footer */
+@media(max-width:768px){
+	.footer-links-wrapper ul {
+		display: none;
+	}
+	.footer-links-wrapper h3 {
+		padding: 10px 0;
+		border-bottom: 1px solid #ccc;
+	}
+	.footer-links-wrapper h3:after {
+		font-family: "FontAwesome";
+		content: "\f067";
+		padding-left: 10px;
+		position: absolute;
+		right: 25px;
+	}
+}
+/* media-qury*/
+@media (min-width:735px){
+	.main-highlight-wrapper {
+  background-image: url("../images/home/iphone/iphone-medium.jpg");
+  height: 500px;
+  margin-bottom: 10px;
+}
+} 
+@media (min-width:1068px){
+	.main-highlight-wrapper {
+  background-image: url("../images/home/iphone/iphone-large.jpg");
+  height: 500px;
+  margin-bottom: 10px; 
+}
+}
+@media (min-width:735px){
+.second-highlight-wrapper {
+  background-image: url("../images/home/iphone12/iphone-12-medium.jpg"); 
+}
+}
+@media (min-width:1068px){
+	.second-highlight-wrapper {
+  background-image: url("../images/home/iphone12/iphone-12-large.jpg");
+  height: 500px;
+  margin-bottom: 10px; 
+} 
+} 
+@media (min-width:813px){
+.third-highlight-wrapper{
+  background-image: url("../images/home/keyboard/key-medium.jpg");
+}
+}
+@media (min-width:1068px){
+	.third-highlight-wrapper {
+  background-image: url("../images/home/keyboard/key-large.jpg");
+  height: 500px;
+  margin-bottom: 10px;
+} 
+} 
+@media (min-width:735px){
+.fourth-highlight-wrapper .left-side-wrapper{
+  background-image: url("../images/home/air-pad1/air-pad-medium.jpg"); 
+}
+@media (min-width:1068px){
+.fourth-highlight-wrapper .left-side-wrapper{
+  background-image: url("../images/home/air-pad1/air-pad-large.jpg");
+  height: 500px;
+  margin-bottom: 10px; 
+} 
+} 
+@media(min-width:735px){
+.sixth-highlight-wrapper .left-side-wrapper{
+  background-image: url("../images/home/six-apple-logo/six-apple-medium.jpg");
+  height: 570px;
+  width: 800px;
+  background-position: bottom; 
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+  }
+.top-body-6-left{
+  padding-top:30px; 
+} 
+.sixth-highlight-wrapper .left-side-wrapper{
+  background-image: url("../images/home/six-apple-logo/six-apple-large.jpg");
+  height: 540px; 
+  text-align: center;
+  width: 800px;
+  background-repeat: no-repeat;
+  background-position:bottom;
+  margin-bottom: 0;}
+}
+@media(min-width:735px){
+.sixth-highlight-wrapper .right-side-wrapper{
+  background-image: url("../images/home/black-girlee/black-girle-medium.jpg");
+  height: 530px;
+  width: 700px;
+  background-position:center; 
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+  }
+.top-body-6-left{
+  padding-top:30px; 
+} 
+.sixth-highlight-wrapper .right-side-wrapper{
+  background-image: url("../images/home/black-girlee/promo_tile__ivhgndrnkuye_large.jpg");
+  height: 540px; 
+  text-align: center;
+  width: 1050px;
+  background-repeat: no-repeat;
+  background-position:center;
+  }
+}
